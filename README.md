@@ -42,9 +42,9 @@ php artisan serve --port=7070
 
 http://127.0.0.1:7070/api/furniture?apartment_id=3
 
-http://127.0.0.1:7070/api/мебель?apartment_id=3&room_id=5
+http://127.0.0.1:7070/api/furniture?apartment_id=3&room_id=5
 
-http://127.0.0.1:7070/api/мебель?room_id=5
+http://127.0.0.1:7070/api/furniture?room_id=5
 
 
 ### EN - English
