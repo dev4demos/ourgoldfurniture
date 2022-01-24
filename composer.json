@@ -1,0 +1,45 @@
+{
+    "name": "ourgold/furniture",
+    "description": "Laravel package",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=7.2.5",
+        "illuminate/support": ">=7.0"
+    },
+    "require-dev":
+    {
+        "orchestra/testbench": ">=3.1"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Ourgold\\Furniture\\": "src/"
+        }
+    },
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra":
+    {
+        "laravel":
+        {
+            "providers": [
+                "Ourgold\\Furniture\\FurnitureServiceProvider"
+            ],
+            "aliases": []
+        }
+    },
+    "minimum-stability": "dev"
+}

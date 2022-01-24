@@ -1,0 +1,61 @@
+{
+    "apartments": [
+    {
+        "apartment_description": "Depot 1",
+        "total_rooms": 50
+    },
+    {
+        "apartment_description": "Depot 2",
+        "total_rooms": 100
+    },
+    {
+        "apartment_description": "Depot 3",
+        "total_rooms": 75
+    }],
+    "rooms": [
+    {
+        "room_type": "Living room",
+        "apartment_id": 3
+    },
+    {
+        "room_type": "Hallway",
+        "apartment_id": 2
+    },
+    {
+        "room_type": "Kitchen",
+        "apartment_id": 1
+    },
+    {
+        "room_type": "Bathroom",
+        "apartment_id": 2
+    },
+    {
+        "room_type": "Hallway",
+        "apartment_id": 3
+    }],
+    "furnitures": [
+    {
+        "furniture_description": "Chair 3",
+        "room_id": 3
+    },
+    {
+        "furniture_description": "Table 1",
+        "room_id": 2
+    },
+    {
+        "furniture_description": "Table 2",
+        "room_id": 5
+    },
+    {
+        "furniture_description": "Chair 1",
+        "room_id": 1
+    },
+    {
+        "furniture_description": "Chair 2",
+        "room_id": 1
+    },
+    {
+        "furniture_description": "Chair 3",
+        "room_id": 4
+    }]
+}
