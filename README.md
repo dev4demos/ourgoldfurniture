@@ -65,7 +65,7 @@ cd app
 ```
 Run the following command to install this package.
 ```
-composer require drnkwati/ourgold-furniture
+composer require ourgold/furniture
 ```
 You can use any relational database supported by laravel framework. 
 Just run the migration command to install package tables.
