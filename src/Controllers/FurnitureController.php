@@ -13,7 +13,7 @@ class FurnitureController extends Controller
 {
     public function index(): JsonResponse
     {
-        $pager = FurnitureModel::history(Request::input())->latest()->simplePaginate(Request::input('limit', 10));
+        $pager = FurnitureModel::history(Request::input())->simplePaginate(Request::input('limit', 10));
         //
         return response()->json($pager->toArray());
     }
